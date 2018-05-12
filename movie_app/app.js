@@ -24,7 +24,3 @@ app.get("/results",function(req,res){
    }); 
 });
 
-//server ===========================================================
-app.listen(process.env.PORT, process.env.IP,function(){
-    console.log("app has started!!!");
-});
