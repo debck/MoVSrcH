@@ -1,7 +1,7 @@
 {
-  "name": "movie_app",
+  "name": "movsrch",
   "version": "1.0.0",
-  "description": "",
+  "description": "A movie search application",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,14 @@
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "request": "^2.85.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debck/MoVSrcH.git"
+  },
+  "bugs": {
+    "url": "https://github.com/debck/MoVSrcH/issues"
+  },
+  "homepage": "https://github.com/debck/MoVSrcH#readme"
 }
