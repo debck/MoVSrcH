@@ -8,4 +8,4 @@
   - npm install 
   - node app.js
   ```
-  - Open http://localhost: (your PORT no) in the browser for action.
+ 
