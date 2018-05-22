@@ -2,7 +2,10 @@
 var express = require("express");
 var app = express();
 var request = require("request");
-app.set('views', path.join(__dirname, "views"));
+var path = require('path');
+
+app.set('views', path.join(__dirname, 'views'));
+
 app.set("view engine","ejs");
 
 //routes ============================================================
