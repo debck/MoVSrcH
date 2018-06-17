@@ -1,7 +1,9 @@
 sudo: false
 language: node_js
 node_js:
-- "6.11"
-- "10.1"
+  - "6.11"
+  - "10.1"
 notifications:
   disabled: true
+install:
+  - npm install
